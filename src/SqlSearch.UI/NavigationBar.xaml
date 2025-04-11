@@ -22,14 +22,14 @@
                 <Image Source="/Images/Icons/Settings.png" Style="{StaticResource Icon}" />
             </Button>
 
-            <Button Grid.Row="0" Grid.Column="1" Style="{StaticResource TransparantButton}" Content="Settings" HorizontalContentAlignment="Left" />
+            <Button Grid.Row="0" Grid.Column="1" Style="{StaticResource TransparantButton}" Content="{x:Static local:Resources.Settings}" HorizontalContentAlignment="Left" />
 
 
             <Button Grid.Row="1" Grid.Column="0" Style="{StaticResource TransparantButton}">
                 <Image Source="/Images/Icons/Add.png" Style="{StaticResource Icon}" />
             </Button>
 
-            <Button Grid.Row="1" Grid.Column="1" Style="{StaticResource TransparantButton}" Content="Add Connection" HorizontalContentAlignment="Left" />
+            <Button Grid.Row="1" Grid.Column="1" Style="{StaticResource TransparantButton}" Content="{x:Static local:Resources.AddConnection}" HorizontalContentAlignment="Left" />
 
         </Grid>
     </StackPanel>
