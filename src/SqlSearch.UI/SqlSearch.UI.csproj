@@ -12,9 +12,16 @@
 	    <ResxAccessModifier>public</ResxAccessModifier>
     </PropertyGroup>
 
+    <ItemGroup>
+      <None Remove="Images\Icons\Add.png" />
+      <None Remove="Images\Icons\Settings.png" />
+    </ItemGroup>
+
 	<ItemGroup>
+    <Resource Include="Images\Icons\Add.png" />
     <Resource Include="Images\Icons\Column.png" />
     <Resource Include="Images\Icons\Search.png" />
+    <Resource Include="Images\Icons\Settings.png" />
     <Resource Include="Images\SearchMaze.png" />
     <Resource Include="Images\SqlSearch.png" />
   </ItemGroup>

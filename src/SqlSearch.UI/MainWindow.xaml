@@ -13,5 +13,9 @@
         <local:SearchControl DockPanel.Dock="Top" Height="24" Margin="6,0,6,0" />
 
         <local:StatusStrip DockPanel.Dock="Bottom" />
+
+        <local:NavigationBar DockPanel.Dock="Left" />
+
+        <ContentControl />
     </DockPanel>
 </Window>
