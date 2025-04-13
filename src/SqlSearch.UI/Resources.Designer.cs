@@ -61,11 +61,47 @@ namespace SqlSearch.UI {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Add Connection.
+        /// </summary>
+        public static string AddConnection {
+            get {
+                return ResourceManager.GetString("AddConnection", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Advanced Search.
+        /// </summary>
+        public static string AdvancedSearch {
+            get {
+                return ResourceManager.GetString("AdvancedSearch", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Databases.
+        /// </summary>
+        public static string Databases {
+            get {
+                return ResourceManager.GetString("Databases", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Search.
         /// </summary>
         public static string Search {
             get {
                 return ResourceManager.GetString("Search", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Settings.
+        /// </summary>
+        public static string Settings {
+            get {
+                return ResourceManager.GetString("Settings", resourceCulture);
             }
         }
         
