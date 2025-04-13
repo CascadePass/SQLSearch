@@ -14,13 +14,19 @@
 
     <ItemGroup>
       <None Remove="Images\Icons\Add.png" />
+      <None Remove="Images\Icons\DatabaseAuditSpecification.png" />
+      <None Remove="Images\Icons\DatabaseSettings.png" />
+      <None Remove="Images\Icons\SearchProperty.png" />
       <None Remove="Images\Icons\Settings.png" />
     </ItemGroup>
 
 	<ItemGroup>
     <Resource Include="Images\Icons\Add.png" />
     <Resource Include="Images\Icons\Column.png" />
+    <Resource Include="Images\Icons\DatabaseAuditSpecification.png" />
+    <Resource Include="Images\Icons\DatabaseSettings.png" />
     <Resource Include="Images\Icons\Search.png" />
+    <Resource Include="Images\Icons\SearchProperty.png" />
     <Resource Include="Images\Icons\Settings.png" />
     <Resource Include="Images\SearchMaze.png" />
     <Resource Include="Images\SqlSearch.png" />

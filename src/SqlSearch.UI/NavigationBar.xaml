@@ -8,7 +8,7 @@
              d:DesignHeight="450" d:DesignWidth="800">
 
     <StackPanel>
-        <Button HorizontalContentAlignment="Left" Style="{StaticResource TransparantButton}">
+        <Button Style="{StaticResource NavigationButton}">
             <StackPanel Orientation="Horizontal">
                 <Image Source="/Images/Icons/Settings.png" Style="{StaticResource Icon}" />
                 <TextBlock Text="{x:Static local:Resources.Settings}" Margin="5,0,0,0" />
@@ -16,10 +16,19 @@
         </Button>
 
 
-        <Button HorizontalContentAlignment="Left" Style="{StaticResource TransparantButton}">
+        <Button Style="{StaticResource NavigationButton}">
             <StackPanel Orientation="Horizontal">
-                <Image Source="/Images/Icons/Add.png" Style="{StaticResource Icon}" />
-                <TextBlock Text="{x:Static local:Resources.AddConnection}" Margin="5,0,0,0" />
+                <Image Source="/Images/Icons/DatabaseSettings.png" Style="{StaticResource Icon}" />
+                <TextBlock Text="{x:Static local:Resources.Databases}" Margin="5,0,0,0" />
+            </StackPanel>
+        </Button>
+
+
+
+        <Button Style="{StaticResource NavigationButton}">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="/Images/Icons/SearchProperty.png" Style="{StaticResource Icon}" />
+                <TextBlock Text="{x:Static local:Resources.AdvancedSearch}" Margin="5,0,0,0" />
             </StackPanel>
         </Button>
     </StackPanel>

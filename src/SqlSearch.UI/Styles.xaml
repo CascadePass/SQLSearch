@@ -79,5 +79,9 @@
         <Setter Property="Background" Value="Transparent"/>
     </Style>
 
+    <Style x:Key="NavigationButton" TargetType="Button" BasedOn="{StaticResource TransparantButton}">
+        <Setter Property="HorizontalContentAlignment" Value="Left"/>
+    </Style>
+
 
 </ResourceDictionary>

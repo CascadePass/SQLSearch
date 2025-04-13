@@ -120,6 +120,12 @@
   <data name="AddConnection" xml:space="preserve">
     <value>Add Connection</value>
   </data>
+  <data name="AdvancedSearch" xml:space="preserve">
+    <value>Advanced Search</value>
+  </data>
+  <data name="Databases" xml:space="preserve">
+    <value>Databases</value>
+  </data>
   <data name="Search" xml:space="preserve">
     <value>Search</value>
   </data>
